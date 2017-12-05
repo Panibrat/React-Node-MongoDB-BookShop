@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render booksForm correctly  1`] = `
+<Well
+  bsClass="well"
+>
+  <Panel
+    bsClass="panel"
+    bsStyle="default"
+    defaultExpanded={false}
+  >
+    <FormGroup
+      bsClass="form-group"
+      controlId="title"
+    >
+      <ControlLabel
+        bsClass="control-label"
+        srOnly={false}
+      >
+        Title
+      </ControlLabel>
+      <FormControl
+        bsClass="form-control"
+        componentClass="input"
+        placeholder="Enter title"
+        type="text"
+      />
+    </FormGroup>
+    <FormGroup
+      bsClass="form-group"
+      controlId="description"
+    >
+      <ControlLabel
+        bsClass="control-label"
+        srOnly={false}
+      >
+        Description
+      </ControlLabel>
+      <FormControl
+        bsClass="form-control"
+        componentClass="input"
+        placeholder="Enter description"
+        type="text"
+      />
+    </FormGroup>
+    <FormGroup
+      bsClass="form-group"
+      controlId="price"
+    >
+      <ControlLabel
+        bsClass="control-label"
+        srOnly={false}
+      >
+        Price
+      </ControlLabel>
+      <FormControl
+        bsClass="form-control"
+        componentClass="input"
+        placeholder="Enter price"
+        type="text"
+      />
+    </FormGroup>
+    <Button
+      active={false}
+      block={false}
+      bsClass="btn"
+      bsStyle="primary"
+      disabled={false}
+      onClick={[Function]}
+    >
+      SAVE
+    </Button>
+  </Panel>
+</Well>
+`;
+
+exports[`should simulate submit button from booksForm 1`] = `
+<Well
+  bsClass="well"
+>
+  <Panel
+    bsClass="panel"
+    bsStyle="default"
+    defaultExpanded={false}
+  >
+    <FormGroup
+      bsClass="form-group"
+      controlId="title"
+    >
+      <ControlLabel
+        bsClass="control-label"
+        srOnly={false}
+      >
+        Title
+      </ControlLabel>
+      <FormControl
+        bsClass="form-control"
+        componentClass="input"
+        placeholder="Enter title"
+        type="text"
+      />
+    </FormGroup>
+    <FormGroup
+      bsClass="form-group"
+      controlId="description"
+    >
+      <ControlLabel
+        bsClass="control-label"
+        srOnly={false}
+      >
+        Description
+      </ControlLabel>
+      <FormControl
+        bsClass="form-control"
+        componentClass="input"
+        placeholder="Enter description"
+        type="text"
+      />
+    </FormGroup>
+    <FormGroup
+      bsClass="form-group"
+      controlId="price"
+    >
+      <ControlLabel
+        bsClass="control-label"
+        srOnly={false}
+      >
+        Price
+      </ControlLabel>
+      <FormControl
+        bsClass="form-control"
+        componentClass="input"
+        placeholder="Enter price"
+        type="text"
+      />
+    </FormGroup>
+    <Button
+      active={false}
+      block={false}
+      bsClass="btn"
+      bsStyle="primary"
+      disabled={false}
+      onClick={[Function]}
+    >
+      SAVE
+    </Button>
+  </Panel>
+</Well>
+`;

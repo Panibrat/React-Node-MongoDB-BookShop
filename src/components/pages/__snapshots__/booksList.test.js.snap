@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Books List Snapshorts Rendering should render BooksList correctly with books in props 1`] = `
+<Grid
+  bsClass="container"
+  componentClass="div"
+  fluid={false}
+  style={
+    Object {
+      "marginTop": "50px",
+    }
+  }
+>
+  <Row
+    bsClass="row"
+    componentClass="div"
+  >
+    <Col
+      bsClass="col"
+      componentClass="div"
+    >
+      <Connect(Cart) />
+    </Col>
+  </Row>
+  <Row
+    bsClass="row"
+    componentClass="div"
+  >
+    <Time />
+    <h1>
+       Books List 
+    </h1>
+    <Col
+      bsClass="col"
+      componentClass="div"
+      md={4}
+      sm={6}
+      xs={12}
+    >
+      <Connect(BooksForm) />
+    </Col>
+    <Col
+      bsClass="col"
+      componentClass="div"
+      key="1"
+      md={4}
+      sm={6}
+      xs={12}
+    >
+      <Connect(BookItem)
+        _id={1}
+        description="this is the book description "
+        price={10.25}
+        title="First Book"
+      />
+    </Col>
+    <Col
+      bsClass="col"
+      componentClass="div"
+      key="2"
+      md={4}
+      sm={6}
+      xs={12}
+    >
+      <Connect(BookItem)
+        _id={2}
+        description="Description for Second"
+        price={22.88}
+        title="Second"
+      />
+    </Col>
+    <Col
+      bsClass="col"
+      componentClass="div"
+      key="3"
+      md={4}
+      sm={6}
+      xs={12}
+    >
+      <Connect(BookItem)
+        _id={3}
+        description="4424h and you winner!!!"
+        price={300.3}
+        title="Learn React"
+      />
+    </Col>
+  </Row>
+</Grid>
+`;
+
+exports[`Books List Snapshorts Rendering should render empty BooksList 1`] = `
+<Grid
+  bsClass="container"
+  componentClass="div"
+  fluid={false}
+  style={
+    Object {
+      "marginTop": "50px",
+    }
+  }
+>
+  <Row
+    bsClass="row"
+    componentClass="div"
+  >
+    <Col
+      bsClass="col"
+      componentClass="div"
+    >
+      <Connect(Cart) />
+    </Col>
+  </Row>
+  <Row
+    bsClass="row"
+    componentClass="div"
+  >
+    <Time />
+    <h1>
+       Books List 
+    </h1>
+    <Col
+      bsClass="col"
+      componentClass="div"
+      md={4}
+      sm={6}
+      xs={12}
+    >
+      <Connect(BooksForm) />
+    </Col>
+  </Row>
+</Grid>
+`;
