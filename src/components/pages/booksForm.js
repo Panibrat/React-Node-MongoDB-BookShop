@@ -25,6 +25,9 @@ export class BooksForm extends React.Component {
         price: findDOMNode(this.refs.price).value
       }
     ];
+    findDOMNode(this.refs.title).value = "";
+    findDOMNode(this.refs.description).value = '';
+    findDOMNode(this.refs.price).value = '';
     this.props.postBooks(book);
   }
 
